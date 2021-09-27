@@ -1,0 +1,22 @@
+{
+  "name": "banco",
+  "version": "1.0.0",
+  "description": "treino banco com node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isaque-Claudino-dos-Santos/Banco-com-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isaque-Claudino-dos-Santos/Banco-com-js/issues"
+  },
+  "homepage": "https://github.com/Isaque-Claudino-dos-Santos/Banco-com-js#readme",
+  "dependencies": {
+    "sequelize": "^6.6.5"
+  }
+}
