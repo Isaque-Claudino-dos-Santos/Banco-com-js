@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/cadastroCliente.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <title>Cadastrar Clente</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form onsubmit="return false;">
+          <h1>Cadastrar</h1>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" autocomplete="off" placeholder="Nome" />
+
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            autocomplete="off"
+            placeholder="@gmail.com"
+          />
+
+          <label for="nacimento">Nacimento</label>
+          <input type="date" id="nacimento" autocomplete="off" />
+
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" placeholder="Senha" />
+
+          <fieldset>
+            <h3>Sexo</h3>
+            <label for="sexoM">M</label>
+            <input type="radio" id="sexoM" name="sexo" value="M" checked />
+            <label for="sexoF">F</label>
+            <input type="radio" id="sexoF" name="sexo" value="F" />
+          </fieldset>
+
+          <input type="submit" value="Cadastrar" id="btnCadastrar" />
+        </form>
+
+        <button class="voltarBtn">
+          <a href="../index.html">Voltar a Index</a>
+        </button>
+      </div>
+    </main>
+
+    <script src="../js/CadastroCliente.js" type="module"></script>
+    <script src="../js/class/sistema/Sistema.js" type="module"></script>
+  </body>
+</html>

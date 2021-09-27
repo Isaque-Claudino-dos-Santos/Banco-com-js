@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <title>TEST</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="titulo">
+          <h1>Banco Com Class</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="html/cadastroCliente.html">Cadastra Cliente</a></li>
+            <li><a href="#">Transações</a></li>
+            <li><a href="#">Clientes</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <table>
+          <caption>
+            Contas
+          </caption>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Email</th>
+              <th>Senha</th>
+              <th>Nacimento</th>
+              <th>Sexo</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="./js/index.js" type="module"></script>
+    <script src="./js/class/Cliente.js" type="module"></script>
+    <script src="./js/class/contas/Conta.js" type="module"></script>
+    <script src="./js/class/contas/ContaCorrente.js" type="module"></script>
+    <script src="./js/class/sistema/Autenticar.js" type="module"></script>
+    <script src="./js/class/sistema/Sistema.js" type="module"></script>
+    <script src="./js/CadastroCliente.js" type="module"></script>
+  </body>
+</html>
+
+<!-- 
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=teste
+DB_USERNAME=andre
+DB_PASSWORD=123456
+
+ -->
